@@ -144,6 +144,77 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
+        
+        <dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
+		</dependency>
+        
+        <dependency>
+   			<groupId>org.springframework.boot</groupId>
+    		<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+    
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        
+        <dependency>
+    		<groupId>org.hibernate</groupId>
+    		<artifactId>hibernate-core</artifactId>
+    		<version>6.0.0.Alpha9</version>
+    		<type>pom</type>
+		</dependency>
+		
+		<dependency>
+      		<groupId>com.github.appreciated</groupId>
+      		<artifactId>app-layout-addon</artifactId>
+      		<version>4.0.0</version>
+    	</dependency>
+    	
+		<dependency>
+      		<groupId>org.vaadin</groupId>
+     		<artifactId>flow-viritin</artifactId>
+      		<version>0.4.0</version>
+   	 	</dependency>
+   	 	
+   	 	<dependency>
+  			<groupId>de.codecamp.vaadin</groupId>
+   			<artifactId>vaadin-service-ref</artifactId>
+   			<version>0.5.0</version>
+		</dependency>
+		
+		<dependency>
+    		<groupId>org.springframework.security</groupId>
+    		<artifactId>spring-security-core</artifactId>
+    		<version>5.5.1</version>
+	    </dependency>
+	    
+	    <dependency>
+    		<groupId>com.google.guava</groupId>
+    		<artifactId>guava</artifactId>
+    		<version>30.1.1-jre</version>
+		</dependency>
+		
+		<dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+        </dependency>
+ 
+        <dependency>
+            <groupId>aspectj</groupId>
+            <artifactId>aspectjrt</artifactId>
+            <version>1.5.4</version>
+        </dependency>
+ 
+        <dependency>
+            <groupId>aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.5.4</version>
+        </dependency>
     </dependencies>
 
     <build>
